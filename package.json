@@ -1,0 +1,31 @@
+{
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "mocha --exit && node server.js",
+    "_start": "node server.js"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "chai-spies": "^0.7.1",
+    "express": "^4.16.2",
+    "mocha": "^4.1.0",
+    "mongoose": "^4.13.8"
+  
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
